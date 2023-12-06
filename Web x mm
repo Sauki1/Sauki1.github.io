@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Kelas Online X Multimedia - SMK GOSKA</title> 
+  <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #000;
+            color: #fff;
+            background-image: url('https://i.imgur.com/FUoeSYZ.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #7FDBFF;
+            border-bottom: 5px solid #0074D9;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #7FDBFF;
+            padding: 10px;
+            border-bottom: 3px solid #0074D9;
+        }
+        section {
+            margin: 20px 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border: 2px solid #0074D9;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 2px solid #0074D9;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #7FDBFF;
+            border-top: 5px solid #0074D9;
+        }
+
+        /* Tambahan Warna dan Dekorasi */
+        a {
+            text-decoration: none;
+            color: #7FDBFF;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #39CCCC;
+        }
+
+        section h2 {
+            color: #7FDBFF;
+            border-bottom: 2px solid #0074D9;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #0074D9;
+        }
+
+        section li {
+            background-color: #0074D9;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+
+        section img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <header> 
+   <h1>Kelas X Multimedia - SMK GOSKA</h1> 
+  </header> 
+  <nav> <a href="#materi">Jelajahi</a> <a href="#tugas">Tugas</a> <a href="#pelajaran">Jadwal Pelajaran</a> <a href="#piket">Jadwal Piket</a> 
+  </nav> 
+  <section id="materi"> 
+   <h2>Ayo jelajahi website X multimedia</h2> 
+   <p>Janganlah kamu bersikap lemah, dan janganlah (pula) kamu bersedih hati, padahal kamulah orang-orang yang paling tinggi (derajatnya), jika kamu orang-orang yang beriman. (QS.Ali 'Imran: 139).</p> 
+   <img src="https://i.imgur.com/nX0IW2S.jpg" alt="Deskripsi Gambar"> 
+  </section> 
+  <section id="tugas"> 
+   <h2>Tugas Terkini</h2> 
+   <p>Cek tugas terbaru dan tenggat waktunya.</p> 
+  </section> 
+  <section id="pelajaran"> 
+   <h2>Jadwal Pelajaran</h2> 
+   <h3>Senin</h3> 
+   <ul> 
+    <li>Bahasa Indonesia</li> 
+    <li>PAI</li> 
+    <li>SISKOM</li> 
+    <li>MATEMATIKA</li> 
+   </ul> 
+   <h3>Selasa</h3> 
+   <ul> 
+    <li>MATEMATIKA</li> 
+    <li>PKN</li> 
+    <li>PJOK</li> 
+    <li>SIMDIG</li> 
+   </ul> 
+   <h3>Rabu</h3> 
+   <ul> 
+    <li>FISIKA</li> 
+    <li>Seni Budaya</li> 
+    <li>PAI</li> 
+    <li>PRAMUKA/BTQ</li> 
+   </ul> 
+   <h3>Kamis</h3> 
+   <ul> 
+    <li>Sejarah Indonesia</li> 
+    <li>Bahasa Inggris</li> 
+    <li>KOMJARDAS</li> 
+   </ul> 
+   <h3>Jumat</h3> 
+   <ul> 
+    <li>PROGDAS</li> 
+    <li>DDG</li> 
+   </ul> 
+   <h3>Sabtu</h3> 
+   <ul> 
+    <li>KIMIA</li> 
+    <li>Bahasa Indonesia</li> 
+    <li>BK</li> 
+   </ul> 
+  </section> 
+  <section id="piket"> 
+   <h2>Jadwal Piket</h2> 
+   <h3>Senin</h3> 
+   <ul> 
+    <li>Afrida Zulfiani</li> 
+    <li>Marsella Suhendro</li> 
+    <li>Agus Sulaiman</li> 
+    <li>Fatur Rahman</li> 
+   </ul> 
+   <h3>Selasa</h3> 
+   <ul> 
+    <li>Siti Masrini</li> 
+    <li>Marsyanda Suhendro</li> 
+    <li>Ahmad Rahmi</li> 
+    <li>M. Denny Prasetyo</li> 
+   </ul> 
+   <h3>Rabu</h3> 
+   <ul> 
+    <li>Elsa</li> 
+    <li>Rizki Nabila</li> 
+    <li>Ahmad Ridwan</li> 
+    <li>Jordin Islami Pasya</li> 
+    <li>M. Fahri</li> 
+   </ul> 
+   <h3>Kamis</h3> 
+   <ul> 
+    <li>Intan Sari</li> 
+    <li>Sahluni</li> 
+    <li>Alfatir Raditya</li> 
+    <li>M. Reyhan</li> 
+    <li>Sandi Prayoga</li> 
+   </ul> 
+   <h3>Jumat</h3> 
+   <ul> 
+    <li>Salwa Salsabila</li> 
+    <li>Bondan</li> 
+    <li>M. Rafi</li> 
+    <li>Syauqi Aliyu Wafi</li> 
+   </ul> 
+   <h3>Sabtu</h3> 
+   <ul> 
+    <li>Khanza Ardelia</li> 
+    <li>Siti Fatimah</li> 
+    <li>Siti Sarah</li> 
+    <li>Fahrul Maulana</li> 
+    <li>M. Yuda</li> 
+   </ul> 
+  </section> <!-- Contoh Galeri Multimedia --> 
+  <section id="galeri"> 
+   <h2>Galeri Multimedia</h2> 
+   <div class="galeri-container"> <a href="https://i.imgur.com/XAaYfYH.jpg" data-lightbox="galeri" data-title="Deskripsi Foto 1"> <img src="https://i.imgur.com/XAaYfYH.jpg" alt="Deskripsi Foto 1"> </a> <a href="https://i.imgur.com/1HNkV43.jpg" data-lightbox="galeri" data-title="Deskripsi Foto 2"> <img src="https://i.imgur.com/1HNkV43.jpg" alt="Deskripsi Foto 2"> </a> <a href="https://i.imgur.com/HJBzWXk.jpg" data-lightbox="galeri" data-title="Deskripsi Foto 3"> <img src="https://i.imgur.com/HJBzWXk.jpg" alt="Deskripsi Foto 3"> </a> <a href="https://i.imgur.com/SjrQDQZ.jpg" data-lightbox="galeri" data-title="Deskripsi Foto 4"> <img src="https://i.imgur.com/SjrQDQZ.jpg" alt="Deskripsi Foto 4"> </a> <a href="https://i.imgur.com/76K10rR.jpg" data-lightbox="galeri" data-title="Deskripsi Foto 5"> <img src="https://i.imgur.com/76K10rR.jpg" alt="Deskripsi Foto 5"> </a> 
+   </div> 
+  </section> <!-- Contoh Panduan Penggunaan --> 
+  <section id="panduan"> 
+   <h2>Panduan Penggunaan</h2> 
+   <p>Silakan ikuti panduan di bawah ini untuk menggunakan website kelas online ini dengan efisien:</p> 
+   <ol> 
+    <li><strong>Jelajahi:</strong> ayo jelajahi website kami x multimedia <a href="#materi">Materi</a>.</li> 
+    <li><strong>Tugas:</strong> Lihat tugas terkini di <a href="#tugas">Tugas</a>.</li> 
+    <li><strong>Jadwal Pelajaran:</strong> Cek jadwal pelajaran di <a href="#pelajaran">Jadwal Pelajaran</a>.</li> 
+    <li><strong>Jadwal Piket:</strong> Periksa jadwal piket di <a href="#piket">Jadwal Piket</a>.</li> 
+    <li><strong>Galeri Multimedia:</strong> Jelajahi foto-foto kegiatan di <a href="#galeri">Galeri Multimedia</a>.</li> <!-- (Tambahkan panduan penggunaan sesuai kebutuhan) --> 
+   </ol> 
+  </section> 
+  <style>
+    /* Gaya tambahan untuk galeri */
+    .galeri-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .galeri-container img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        margin: 5px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .galeri-container img:hover {
+        transform: scale(1.1);
+    }
+</style> <!-- Informasi Kontak Pembuat Website --> 
+  <section id="kontak-pembuat"> 
+   <h2>Kontak Pembuat Website</h2> 
+   <p>Website ini dibuat oleh Syauqi Aliyu Wafi. Silakan hubungi beliau melalui:</p> 
+   <ul> 
+    <li><strong>Instagram:</strong> <a href="https://instagram.com/xzt_ukyyy?igshid=MmVlMjlkMTBhMg==" target="_blank">xzt_ukyyy</a></li> 
+    <li><strong>TikTok:</strong> <a href="https://www.tiktok.com/@sayaukyy?_t=8hxKfazVUKQ&amp;_r=1" target="_blank">@sayaukyy</a></li> 
+    <li><strong>X:</strong> <a href="https://x.com/UKYY_12?t=wYTJeJA3cuoFPP4qtNChpw&amp;s=09" target="_blank">UKYY_12</a></li> 
+    <li><strong>Facebook:</strong> <a href="https://www.facebook.com/sauki.kun?mibextid=gik2fB" target="_blank">Sauki Kun</a></li> 
+   </ul> 
+  </section> 
+  <footer> 
+   <p>© 2023 Kelas Online X Multimedia - SMK GOSKA. All rights reserved.</p> 
+  </footer> 
+ </body>
+</html>
